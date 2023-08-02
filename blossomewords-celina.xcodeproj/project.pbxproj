@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030114712A7ADDA900C3D5BF /* blossomewords_celinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114702A7ADDA900C3D5BF /* blossomewords_celinaApp.swift */; };
+		030114732A7ADDA900C3D5BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114722A7ADDA900C3D5BF /* ContentView.swift */; };
+		030114752A7ADDAB00C3D5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030114742A7ADDAB00C3D5BF /* Assets.xcassets */; };
+		030114782A7ADDAB00C3D5BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030114772A7ADDAB00C3D5BF /* Preview Assets.xcassets */; };
+		030114822A7ADDAC00C3D5BF /* blossomewords_celinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114812A7ADDAC00C3D5BF /* blossomewords_celinaTests.swift */; };
+		0301148C2A7ADDAC00C3D5BF /* blossomewords_celinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301148B2A7ADDAC00C3D5BF /* blossomewords_celinaUITests.swift */; };
+		0301148E2A7ADDAC00C3D5BF /* blossomewords_celinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301148D2A7ADDAC00C3D5BF /* blossomewords_celinaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0301147E2A7ADDAC00C3D5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030114652A7ADDA900C3D5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0301146C2A7ADDA900C3D5BF;
+			remoteInfo = "blossomewords-celina";
+		};
+		030114882A7ADDAC00C3D5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030114652A7ADDA900C3D5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0301146C2A7ADDA900C3D5BF;
+			remoteInfo = "blossomewords-celina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0301146D2A7ADDA900C3D5BF /* blossomewords-celina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blossomewords-celina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030114702A7ADDA900C3D5BF /* blossomewords_celinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomewords_celinaApp.swift; sourceTree = "<group>"; };
+		030114722A7ADDA900C3D5BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		030114742A7ADDAB00C3D5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030114772A7ADDAB00C3D5BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0301147D2A7ADDAC00C3D5BF /* blossomewords-celinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blossomewords-celinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030114812A7ADDAC00C3D5BF /* blossomewords_celinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomewords_celinaTests.swift; sourceTree = "<group>"; };
+		030114872A7ADDAC00C3D5BF /* blossomewords-celinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blossomewords-celinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0301148B2A7ADDAC00C3D5BF /* blossomewords_celinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomewords_celinaUITests.swift; sourceTree = "<group>"; };
+		0301148D2A7ADDAC00C3D5BF /* blossomewords_celinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomewords_celinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0301146A2A7ADDA900C3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0301147A2A7ADDAC00C3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114842A7ADDAC00C3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030114642A7ADDA900C3D5BF = {
+			isa = PBXGroup;
+			children = (
+				0301146F2A7ADDA900C3D5BF /* blossomewords-celina */,
+				030114802A7ADDAC00C3D5BF /* blossomewords-celinaTests */,
+				0301148A2A7ADDAC00C3D5BF /* blossomewords-celinaUITests */,
+				0301146E2A7ADDA900C3D5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0301146E2A7ADDA900C3D5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0301146D2A7ADDA900C3D5BF /* blossomewords-celina.app */,
+				0301147D2A7ADDAC00C3D5BF /* blossomewords-celinaTests.xctest */,
+				030114872A7ADDAC00C3D5BF /* blossomewords-celinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0301146F2A7ADDA900C3D5BF /* blossomewords-celina */ = {
+			isa = PBXGroup;
+			children = (
+				030114702A7ADDA900C3D5BF /* blossomewords_celinaApp.swift */,
+				030114722A7ADDA900C3D5BF /* ContentView.swift */,
+				030114742A7ADDAB00C3D5BF /* Assets.xcassets */,
+				030114762A7ADDAB00C3D5BF /* Preview Content */,
+			);
+			path = "blossomewords-celina";
+			sourceTree = "<group>";
+		};
+		030114762A7ADDAB00C3D5BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				030114772A7ADDAB00C3D5BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		030114802A7ADDAC00C3D5BF /* blossomewords-celinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				030114812A7ADDAC00C3D5BF /* blossomewords_celinaTests.swift */,
+			);
+			path = "blossomewords-celinaTests";
+			sourceTree = "<group>";
+		};
+		0301148A2A7ADDAC00C3D5BF /* blossomewords-celinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0301148B2A7ADDAC00C3D5BF /* blossomewords_celinaUITests.swift */,
+				0301148D2A7ADDAC00C3D5BF /* blossomewords_celinaUITestsLaunchTests.swift */,
+			);
+			path = "blossomewords-celinaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0301146C2A7ADDA900C3D5BF /* blossomewords-celina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030114912A7ADDAC00C3D5BF /* Build configuration list for PBXNativeTarget "blossomewords-celina" */;
+			buildPhases = (
+				030114692A7ADDA900C3D5BF /* Sources */,
+				0301146A2A7ADDA900C3D5BF /* Frameworks */,
+				0301146B2A7ADDA900C3D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blossomewords-celina";
+			productName = "blossomewords-celina";
+			productReference = 0301146D2A7ADDA900C3D5BF /* blossomewords-celina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0301147C2A7ADDAC00C3D5BF /* blossomewords-celinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030114942A7ADDAC00C3D5BF /* Build configuration list for PBXNativeTarget "blossomewords-celinaTests" */;
+			buildPhases = (
+				030114792A7ADDAC00C3D5BF /* Sources */,
+				0301147A2A7ADDAC00C3D5BF /* Frameworks */,
+				0301147B2A7ADDAC00C3D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0301147F2A7ADDAC00C3D5BF /* PBXTargetDependency */,
+			);
+			name = "blossomewords-celinaTests";
+			productName = "blossomewords-celinaTests";
+			productReference = 0301147D2A7ADDAC00C3D5BF /* blossomewords-celinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030114862A7ADDAC00C3D5BF /* blossomewords-celinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030114972A7ADDAC00C3D5BF /* Build configuration list for PBXNativeTarget "blossomewords-celinaUITests" */;
+			buildPhases = (
+				030114832A7ADDAC00C3D5BF /* Sources */,
+				030114842A7ADDAC00C3D5BF /* Frameworks */,
+				030114852A7ADDAC00C3D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030114892A7ADDAC00C3D5BF /* PBXTargetDependency */,
+			);
+			name = "blossomewords-celinaUITests";
+			productName = "blossomewords-celinaUITests";
+			productReference = 030114872A7ADDAC00C3D5BF /* blossomewords-celinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030114652A7ADDA900C3D5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0301146C2A7ADDA900C3D5BF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0301147C2A7ADDAC00C3D5BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0301146C2A7ADDA900C3D5BF;
+					};
+					030114862A7ADDAC00C3D5BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0301146C2A7ADDA900C3D5BF;
+					};
+				};
+			};
+			buildConfigurationList = 030114682A7ADDA900C3D5BF /* Build configuration list for PBXProject "blossomewords-celina" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030114642A7ADDA900C3D5BF;
+			productRefGroup = 0301146E2A7ADDA900C3D5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0301146C2A7ADDA900C3D5BF /* blossomewords-celina */,
+				0301147C2A7ADDAC00C3D5BF /* blossomewords-celinaTests */,
+				030114862A7ADDAC00C3D5BF /* blossomewords-celinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0301146B2A7ADDA900C3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114782A7ADDAB00C3D5BF /* Preview Assets.xcassets in Resources */,
+				030114752A7ADDAB00C3D5BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0301147B2A7ADDAC00C3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114852A7ADDAC00C3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030114692A7ADDA900C3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114732A7ADDA900C3D5BF /* ContentView.swift in Sources */,
+				030114712A7ADDA900C3D5BF /* blossomewords_celinaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114792A7ADDAC00C3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114822A7ADDAC00C3D5BF /* blossomewords_celinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114832A7ADDAC00C3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0301148E2A7ADDAC00C3D5BF /* blossomewords_celinaUITestsLaunchTests.swift in Sources */,
+				0301148C2A7ADDAC00C3D5BF /* blossomewords_celinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0301147F2A7ADDAC00C3D5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0301146C2A7ADDA900C3D5BF /* blossomewords-celina */;
+			targetProxy = 0301147E2A7ADDAC00C3D5BF /* PBXContainerItemProxy */;
+		};
+		030114892A7ADDAC00C3D5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0301146C2A7ADDA900C3D5BF /* blossomewords-celina */;
+			targetProxy = 030114882A7ADDAC00C3D5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0301148F2A7ADDAC00C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030114902A7ADDAC00C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030114922A7ADDAC00C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blossomewords-celina/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomewords-celina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030114932A7ADDAC00C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blossomewords-celina/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomewords-celina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		030114952A7ADDAC00C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomewords-celinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blossomewords-celina.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blossomewords-celina";
+			};
+			name = Debug;
+		};
+		030114962A7ADDAC00C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomewords-celinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blossomewords-celina.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blossomewords-celina";
+			};
+			name = Release;
+		};
+		030114982A7ADDAC00C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomewords-celinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "blossomewords-celina";
+			};
+			name = Debug;
+		};
+		030114992A7ADDAC00C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomewords-celinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "blossomewords-celina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030114682A7ADDA900C3D5BF /* Build configuration list for PBXProject "blossomewords-celina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0301148F2A7ADDAC00C3D5BF /* Debug */,
+				030114902A7ADDAC00C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030114912A7ADDAC00C3D5BF /* Build configuration list for PBXNativeTarget "blossomewords-celina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114922A7ADDAC00C3D5BF /* Debug */,
+				030114932A7ADDAC00C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030114942A7ADDAC00C3D5BF /* Build configuration list for PBXNativeTarget "blossomewords-celinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114952A7ADDAC00C3D5BF /* Debug */,
+				030114962A7ADDAC00C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030114972A7ADDAC00C3D5BF /* Build configuration list for PBXNativeTarget "blossomewords-celinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114982A7ADDAC00C3D5BF /* Debug */,
+				030114992A7ADDAC00C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030114652A7ADDA900C3D5BF /* Project object */;
+}
